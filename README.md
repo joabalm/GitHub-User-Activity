@@ -39,7 +39,7 @@ python script_name.py user.activity <github_username>
 To fetch the public activities of the GitHub user `joabalm`, run:
 
 ```bash
-python script_name.py user.activity joabalm
+python user_activity.py user.activity joabalm
 ```
 
 This will output the recent public events of the user in JSON format.
@@ -54,6 +54,3 @@ This will output the recent public events of the user in JSON format.
 - If the GitHub API request fails (e.g., due to a non-existent user or network issue), the script will not output any data.
 - Ensure the GitHub username provided exists and is correct.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
